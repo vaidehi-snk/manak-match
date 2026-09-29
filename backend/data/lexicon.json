@@ -1,0 +1,411 @@
+{
+ "synonyms": {
+  "pipe": [
+   "pipes",
+   "tube",
+   "tubing",
+   "tubular",
+   "conduit",
+   "piping"
+  ],
+  "drinking": [
+   "potable",
+   "portable water",
+   "drinking water"
+  ],
+  "water": [
+   "water",
+   "h2o",
+   "aqua"
+  ],
+  "wire": [
+   "wires",
+   "cable",
+   "cables",
+   "cord",
+   "conductor",
+   "wiring"
+  ],
+  "cable": [
+   "cables",
+   "wire",
+   "wires",
+   "cord",
+   "conductor"
+  ],
+  "rebar": [
+   "reinforcement",
+   "reinforcing",
+   "tmt",
+   "deformed bar",
+   "steel bar"
+  ],
+  "cement": [
+   "opc",
+   "portland",
+   "ppc",
+   "binder"
+  ],
+  "concrete": [
+   "rcc",
+   "reinforced concrete",
+   "pcc"
+  ],
+  "brick": [
+   "bricks",
+   "masonry",
+   "block",
+   "blocks"
+  ],
+  "steel": [
+   "iron",
+   "ms",
+   "mild steel",
+   "structural steel"
+  ],
+  "helmet": [
+   "helmets",
+   "hard hat",
+   "headgear",
+   "head protection"
+  ],
+  "shoe": [
+   "shoes",
+   "footwear",
+   "boot",
+   "boots",
+   "safety shoe"
+  ],
+  "fan": [
+   "fans",
+   "ceiling fan"
+  ],
+  "bulb": [
+   "bulbs",
+   "lamp",
+   "lamps",
+   "led",
+   "light",
+   "lighting",
+   "luminaire"
+  ],
+  "light": [
+   "lighting",
+   "lamp",
+   "luminaire",
+   "led",
+   "bulb"
+  ],
+  "computer": [
+   "laptop",
+   "pc",
+   "desktop",
+   "server",
+   "monitor",
+   "it equipment"
+  ],
+  "battery": [
+   "batteries",
+   "cell",
+   "cells",
+   "li-ion",
+   "lithium",
+   "power bank"
+  ],
+  "extinguisher": [
+   "extinguishers",
+   "fire extinguisher",
+   "firefighting"
+  ],
+  "chair": [
+   "chairs",
+   "seating",
+   "seat"
+  ],
+  "cupboard": [
+   "cabinet",
+   "almirah",
+   "storage unit",
+   "locker"
+  ],
+  "bedsheet": [
+   "bed sheet",
+   "bedsheets",
+   "linen"
+  ],
+  "switch": [
+   "switches",
+   "mcb",
+   "breaker",
+   "circuit breaker",
+   "switchgear"
+  ],
+  "socket": [
+   "sockets",
+   "plug",
+   "plugs",
+   "socket outlet"
+  ],
+  "earthing": [
+   "grounding",
+   "earth",
+   "ground"
+  ],
+  "aggregate": [
+   "sand",
+   "gravel",
+   "crushed stone",
+   "coarse aggregate",
+   "fine aggregate"
+  ],
+  "roofing": [
+   "roof",
+   "sheet",
+   "sheets",
+   "cladding",
+   "corrugated"
+  ],
+  "water bottle": [
+   "packaged water",
+   "bottled water",
+   "mineral water",
+   "drinking water"
+  ],
+  "atta": [
+   "flour",
+   "wheat flour",
+   "wheat"
+  ],
+  "salt": [
+   "iodised salt",
+   "iodized salt",
+   "namak"
+  ],
+  "milk": [
+   "dairy",
+   "milk powder",
+   "skimmed milk"
+  ],
+  "gas": [
+   "lpg",
+   "cooking gas",
+   "cylinder"
+  ],
+  "cylinder": [
+   "lpg cylinder",
+   "gas cylinder",
+   "lpg"
+  ],
+  "stove": [
+   "burner",
+   "gas stove",
+   "chulha",
+   "cooking range"
+  ],
+  "utensil": [
+   "utensils",
+   "cookware",
+   "vessel",
+   "vessels",
+   "stainless steel"
+  ],
+  "mask": [
+   "face mask",
+   "surgical mask",
+   "ppe"
+  ],
+  "bed": [
+   "beds",
+   "cot",
+   "hospital bed"
+  ],
+  "solar": [
+   "photovoltaic",
+   "pv",
+   "solar panel",
+   "solar module"
+  ],
+  "panel": [
+   "module",
+   "solar panel",
+   "pv module"
+  ],
+  "toilet": [
+   "water closet",
+   "wc",
+   "sanitary",
+   "latrine"
+  ],
+  "basin": [
+   "wash basin",
+   "washbasin",
+   "sink"
+  ],
+  "manhole": [
+   "manhole cover",
+   "drain cover",
+   "chamber cover"
+  ],
+  "bitumen": [
+   "tar",
+   "asphalt",
+   "paving bitumen"
+  ],
+  "paver": [
+   "paver block",
+   "paving block",
+   "interlocking block"
+  ],
+  "hygiene": [
+   "food safety",
+   "haccp",
+   "sanitation"
+  ]
+ },
+ "devanagari": {
+  "सीमेंट": "cement",
+  "सिमेंट": "cement",
+  "पाइप": "pipe",
+  "पाइपलाइन": "pipe",
+  "नली": "pipe",
+  "पानी": "water",
+  "जल": "water",
+  "पेयजल": "drinking",
+  "तार": "wire",
+  "केबल": "cable",
+  "सरिया": "rebar",
+  "छड़": "rebar",
+  "सलाखें": "rebar",
+  "ईंट": "brick",
+  "ईंटें": "brick",
+  "स्टील": "steel",
+  "लोहा": "steel",
+  "हेलमेट": "helmet",
+  "सुरक्षा टोपी": "helmet",
+  "जूता": "shoe",
+  "जूते": "shoe",
+  "पंखा": "fan",
+  "बल्ब": "bulb",
+  "बत्ती": "light",
+  "रोशनी": "light",
+  "कंप्यूटर": "computer",
+  "लैपटॉप": "computer",
+  "बैटरी": "battery",
+  "अग्निशामक": "extinguisher",
+  "कुर्सी": "chair",
+  "अलमारी": "cupboard",
+  "चादर": "bedsheet",
+  "स्विच": "switch",
+  "सॉकेट": "socket",
+  "प्लग": "socket",
+  "अर्थिंग": "earthing",
+  "ग्राउंडिंग": "earthing",
+  "बजरी": "aggregate",
+  "रेत": "aggregate",
+  "गिट्टी": "aggregate",
+  "छत": "roofing",
+  "आटा": "atta",
+  "गेहूं": "atta",
+  "नमक": "salt",
+  "दूध": "milk",
+  "गैस": "gas",
+  "सिलेंडर": "cylinder",
+  "चूल्हा": "stove",
+  "बर्तन": "utensil",
+  "मास्क": "mask",
+  "बिस्तर": "bed",
+  "पलंग": "bed",
+  "सोलर": "solar",
+  "सौर": "solar",
+  "पैनल": "panel",
+  "शौचालय": "toilet",
+  "टॉयलेट": "toilet",
+  "बेसिन": "basin",
+  "सिंक": "basin",
+  "डामर": "bitumen",
+  "तारकोल": "bitumen",
+  "कंक्रीट": "concrete",
+  "सड़क": "road",
+  "पीने": "drinking",
+  "पाणी": "water",
+  "पाण्यासाठी": "water",
+  "पाण्याचे": "water",
+  "पाण्याच्या": "water",
+  "पिण्याच्या": "drinking",
+  "पिण्याचे": "drinking",
+  "नळ": "pipe",
+  "लोखंड": "steel",
+  "वीट": "brick",
+  "विटा": "brick",
+  "खुर्ची": "chair",
+  "कपाट": "cupboard",
+  "दिवा": "light",
+  "दिवे": "light",
+  "रस्ता": "road",
+  "वायर": "wire",
+  "बॅटरी": "battery",
+  "शिरस्त्राण": "helmet"
+ },
+ "stopwords": [
+  "the",
+  "a",
+  "an",
+  "for",
+  "of",
+  "and",
+  "or",
+  "to",
+  "in",
+  "on",
+  "with",
+  "is",
+  "are",
+  "we",
+  "i",
+  "need",
+  "want",
+  "looking",
+  "buy",
+  "purchase",
+  "procure",
+  "procurement",
+  "required",
+  "requirement",
+  "standard",
+  "standards",
+  "which",
+  "what",
+  "should",
+  "use",
+  "used",
+  "my",
+  "our",
+  "please",
+  "tender",
+  "specification",
+  "spec",
+  "के",
+  "का",
+  "की",
+  "को",
+  "में",
+  "से",
+  "है",
+  "हैं",
+  "और",
+  "या",
+  "लिए",
+  "हमें",
+  "चाहिए",
+  "खरीदना",
+  "हेतु",
+  "साठी",
+  "च्या",
+  "चे",
+  "ची",
+  "आणि",
+  "आहे",
+  "पाहिजे",
+  "हवे"
+ ]
+}
