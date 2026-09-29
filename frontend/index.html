@@ -795,6 +795,8 @@ body::before{ content:""; position:fixed; inset:0; z-index:-1; pointer-events:no
 </style>
 <script src="icons.js"></script>
 <script src="standards-data.js"></script>
+<script src="standards-extra.js"></script>
+<script src="semantic-index.js"></script>
 <script src="search-engine.js"></script>
 </head>
 <body>
@@ -1038,11 +1040,13 @@ body::before{ content:""; position:fixed; inset:0; z-index:-1; pointer-events:no
         <p data-i18n="truthP">We'd rather tell you than have you find out. The method is corpus-independent; the corpus is a curated demo set because full IS texts are paid and BIS exposes no bulk API.</p>
       </div>
       <div class="truth-list reveal" style="--d:1">
-        <div class="truth-row"><span class="dot warn"></span><span class="nm">Standards corpus: title, scope, ICS, status</span><span class="pill warn">Curated · 90 of 20,000+</span></div>
-        <div class="truth-row"><span class="dot ok"></span><span class="nm">Semantic retrieval and ranking engine</span><span class="pill ok">Built</span></div>
+        <div class="truth-row"><span class="dot warn"></span><span class="nm">Standards corpus: title, scope, ICS, status</span><span class="pill warn">Curated · 238 of 20,000+</span></div>
+        <div class="truth-row"><span class="dot ok"></span><span class="nm">Hybrid retrieval: weighted lexical + latent-semantic (LSA) concept matching</span><span class="pill ok">Built</span></div>
         <div class="truth-row"><span class="dot ok"></span><span class="nm">Supersession and currency checking</span><span class="pill ok">Built</span></div>
         <div class="truth-row"><span class="dot ok"></span><span class="nm">Certification crosswalk (ISI / CRS / Hallmark)</span><span class="pill ok">Built</span></div>
         <div class="truth-row"><span class="dot ok"></span><span class="nm">Six-way allied classification (rule-based)</span><span class="pill ok">Built</span></div>
+        <div class="truth-row"><span class="dot ok"></span><span class="nm">Standards map, dispute-risk index, corrected-spec export, watchlist</span><span class="pill ok">Built</span></div>
+        <div class="truth-row"><span class="dot warn"></span><span class="nm">Transformer-embedding model (multilingual) as drop-in upgrade</span><span class="pill warn">Planned</span></div>
         <div class="truth-row"><span class="dot ok"></span><span class="nm">Bulk BOQ analysis and CSV export</span><span class="pill ok">Built</span></div>
         <div class="truth-row"><span class="dot bad"></span><span class="nm">Live sync with bis.gov.in "Know Your Standard"</span><span class="pill">Roadmap · no public API</span></div>
       </div>
@@ -2184,5 +2188,6 @@ $('results').innerHTML = emptyFind(); hydrateIcons($('results'));
 addEventListener('hashchange', route);
 route();
 </script>
+<script src="features-v2.js"></script>
 </body>
 </html>

@@ -20,6 +20,9 @@ SYNONYMS: Dict[str, List[str]] = _LEX["synonyms"]
 DEVANAGARI: Dict[str, str] = _LEX["devanagari"]
 STOPWORDS = set(_LEX["stopwords"])
 BY_NO = {s["no"]: s for s in STANDARDS}
+_SEM_PATH = DATA / "semantic.json"
+SEMANTIC = json.loads(_SEM_PATH.read_text(encoding="utf-8")) if _SEM_PATH.exists() else None
+SEM_FLOOR, SEM_WEIGHT, SEM_ONLY_MIN = 0.35, 0.3, 0.5
 
 # ------------------------------------------------------------------ text
 _STRIP = re.compile(r"[^a-z0-9\u0900-\u097F\s./-]")
@@ -31,6 +34,8 @@ def expand_token(token: str) -> dict:
     terms, phrases = {token}, set()
     if token.endswith("s") and len(token) > 3:
         terms.add(token[:-1])
+    elif re.fullmatch(r"[a-z]{4,}", token):
+        terms.add(token + "s")            # 'cylinder' also finds 'cylinders'
     if token in DEVANAGARI:                       # Hindi / Marathi -> canonical English key
         terms.add(DEVANAGARI[token])
         token = DEVANAGARI[token]
@@ -93,6 +98,21 @@ def _score(std: dict, groups: List[dict]):
             if best_term not in matched: matched.append(best_term)
     return score, matched
 
+def semantic_scores(groups: List[dict]) -> Optional[Dict[str, float]]:
+    """Latent-semantic (LSA) cosine of the query vs every standard - mirrors semanticScores() in search-engine.js."""
+    if not SEMANTIC: return None
+    k = SEMANTIC["k"]; q = [0.0] * k; used = set(); hit = 0
+    for g in groups:
+        for t in list(g["terms"]) + [w for p in g["phrases"] for w in p.split(" ")]:
+            if t in used: continue
+            used.add(t); v = SEMANTIC["terms"].get(t)
+            if v:
+                hit += 1
+                for i in range(k): q[i] += v[i]
+    if not hit: return None
+    n = math.sqrt(sum(x * x for x in q)) or 1.0
+    return {no: sum(q[i] * d[i] for i in range(k)) / n for no, d in SEMANTIC["docs"].items()}
+
 def search(query: str, include_superseded: bool = True, limit: int = 8) -> List[dict]:
     q_tokens = tokenize(query)
     if not q_tokens: return []
@@ -101,18 +121,32 @@ def search(query: str, include_superseded: bool = True, limit: int = 8) -> List[
     max_possible = sum(max((max(idf(t) for t in g["terms"]) * 3.0) if g["terms"] else 0.0,
                            4.5 if g["phrases"] else 0.0) for g in groups) or 1.0
     wants_test = re.search(r"\b(test|testing|method|sampling|analysis)\b", query, re.I) is not None
+    sem = semantic_scores(groups)
     out = []
     for std in STANDARDS:
         score, matched = _score(std, groups)
         final = score
+        if score > 0:   # adjacent query words that appear together are stronger evidence
+            tl, sl = std["title"].lower(), std["scope"].lower()
+            for i in range(len(q_tokens) - 1):
+                ph = q_tokens[i] + " " + q_tokens[i + 1]
+                if ph in tl: final += 2.5
+                elif ph in sl: final += 1.5
+        cos = sem.get(std["no"], 0.0) if sem else 0.0
+        sem_only = False
+        if cos > SEM_FLOOR and (score > 0 or cos >= SEM_ONLY_MIN):
+            final += (cos - SEM_FLOOR) / (1 - SEM_FLOOR) * max_possible * SEM_WEIGHT
+            sem_only = score == 0
         if is_num and ("is " + is_num.group(1)) in std["no"].lower(): final += 100
         if not wants_test and final > 0:
             kind = doc_type(std)
             if kind == "product-spec": final *= 1.18
             elif kind in ("test-method", "terminology"): final *= 0.80
+        if std.get("primary") and final > 0: final *= 1.12
         if final > 0:
             out.append({"std": std, "raw": final, "matched": matched,
-                        "confidence": min(99, int(final / max_possible * 100 + 0.5))})
+                        "confidence": min(99, int(final / max_possible * 100 + 0.5)),
+                        "semantic": round(cos * 100), "sem_only": sem_only})
     if not include_superseded:
         out = [r for r in out if r["std"]["status"] == "current"]
     out.sort(key=lambda r: -r["raw"])
@@ -194,7 +228,8 @@ def audit(text: str) -> dict:
                 want = re.sub(r"[()]", "", part.lower()).strip()[:10]
                 if want not in s["no"].lower(): continue
             cands.append(s)
-        std = cands[0] if cands else None
+        exact = next((c for c in cands if year and c["no"].endswith(":" + year)), None) if year else None
+        std = exact or next((c for c in cands if c["status"] == "current"), None) or (cands[0] if cands else None)
         issues = []
         if not std:
             issues.append({"level": "unknown", "message": f'"{raw}" is not in the indexed corpus - verify on bis.gov.in.'})

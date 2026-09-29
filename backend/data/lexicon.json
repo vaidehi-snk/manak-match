@@ -260,6 +260,172 @@
    "food safety",
    "haccp",
    "sanitation"
+  ],
+  "plywood": [
+   "ply",
+   "blockboard",
+   "mdf",
+   "particle board",
+   "hardboard"
+  ],
+  "door": [
+   "shutter",
+   "flush door",
+   "door frame"
+  ],
+  "timber": [
+   "wood",
+   "wooden",
+   "lumber"
+  ],
+  "glass": [
+   "glazing",
+   "toughened",
+   "float glass",
+   "laminated"
+  ],
+  "tile": [
+   "tiles",
+   "vitrified",
+   "ceramic",
+   "flooring",
+   "terrazzo"
+  ],
+  "paint": [
+   "distemper",
+   "emulsion",
+   "enamel",
+   "primer",
+   "coating",
+   "putty"
+  ],
+  "waterproofing": [
+   "damp proofing",
+   "waterproof",
+   "sealant",
+   "bitumen felt"
+  ],
+  "valve": [
+   "gate valve",
+   "sluice valve",
+   "tap",
+   "faucet",
+   "stop cock"
+  ],
+  "tap": [
+   "faucet",
+   "bib cock",
+   "mixer"
+  ],
+  "tank": [
+   "water tank",
+   "overhead tank",
+   "storage tank",
+   "sintex"
+  ],
+  "transformer": [
+   "distribution transformer",
+   "power transformer"
+  ],
+  "meter": [
+   "energy meter",
+   "smart meter",
+   "watt-hour",
+   "electricity meter"
+  ],
+  "breaker": [
+   "mcb",
+   "rccb",
+   "elcb",
+   "circuit breaker",
+   "mccb"
+  ],
+  "motor": [
+   "induction motor",
+   "pump motor"
+  ],
+  "pump": [
+   "submersible",
+   "monoblock",
+   "centrifugal pump",
+   "borewell"
+  ],
+  "air conditioner": [
+   "split ac",
+   "window ac",
+   "airconditioner",
+   "air conditioning"
+  ],
+  "geyser": [
+   "water heater",
+   "storage water heater"
+  ],
+  "ups": [
+   "inverter",
+   "uninterruptible",
+   "power backup"
+  ],
+  "toy": [
+   "toys",
+   "children toy",
+   "plaything"
+  ],
+  "sprinkler": [
+   "fire sprinkler",
+   "hydrant",
+   "fire alarm",
+   "smoke detector",
+   "fire hose"
+  ],
+  "harness": [
+   "safety belt",
+   "fall protection",
+   "safety harness"
+  ],
+  "goggles": [
+   "eye protection",
+   "safety glasses"
+  ],
+  "gloves": [
+   "hand gloves",
+   "safety gloves"
+  ],
+  "seismic": [
+   "earthquake",
+   "earthquake resistant"
+  ],
+  "foundation": [
+   "footing",
+   "pile",
+   "raft"
+  ],
+  "mortar": [
+   "plaster",
+   "masonry",
+   "plastering"
+  ],
+  "admixture": [
+   "plasticiser",
+   "superplasticiser",
+   "retarder"
+  ],
+  "transformer oil": [
+   "insulating oil"
+  ],
+  "cooker": [
+   "pressure cooker"
+  ],
+  "honey": [
+   "madhu"
+  ],
+  "ready mix": [
+   "rmc",
+   "ready mixed concrete"
+  ],
+  "irrigation": [
+   "drip",
+   "sprinkler irrigation",
+   "emitter"
   ]
  },
  "devanagari": {
@@ -344,7 +510,51 @@
   "रस्ता": "road",
   "वायर": "wire",
   "बॅटरी": "battery",
-  "शिरस्त्राण": "helmet"
+  "शिरस्त्राण": "helmet",
+  "प्लाईवुड": "plywood",
+  "ब्लॉकबोर्ड": "plywood",
+  "दरवाजा": "door",
+  "दरवाज़ा": "door",
+  "दरवाजे": "door",
+  "लकड़ी": "timber",
+  "काँच": "glass",
+  "कांच": "glass",
+  "शीशा": "glass",
+  "टाइल": "tile",
+  "टाइल्स": "tile",
+  "फर्श": "tile",
+  "पेंट": "paint",
+  "रंग": "paint",
+  "वाटरप्रूफिंग": "waterproofing",
+  "वाल्व": "valve",
+  "नल": "tap",
+  "टंकी": "tank",
+  "टैंक": "tank",
+  "ट्रांसफार्मर": "transformer",
+  "मीटर": "meter",
+  "पंप": "pump",
+  "मोटर": "motor",
+  "एसी": "air conditioner",
+  "गीजर": "geyser",
+  "यूपीएस": "ups",
+  "इन्वर्टर": "ups",
+  "खिलौने": "toy",
+  "खिलौना": "toy",
+  "स्प्रिंकलर": "sprinkler",
+  "अग्निशमन": "extinguisher",
+  "दस्ताने": "gloves",
+  "चश्मा": "goggles",
+  "भूकंप": "seismic",
+  "नींव": "foundation",
+  "मैनहोल": "manhole",
+  "शहद": "honey",
+  "कुकर": "cooker",
+  "खिडकी": "door",
+  "खिड़की": "door",
+  "टाईल": "tile",
+  "रंगकाम": "paint",
+  "सिंचाई": "irrigation",
+  "ड्रिप": "irrigation"
  },
  "stopwords": [
   "the",

@@ -17,7 +17,7 @@ queries += ["IS 456", "test method for cement", "आटा", "बैटरी", 
 js = r"""
 const fs=require('fs'),vm=require('vm');
 const fe=process.argv[1];
-const code=fs.readFileSync(fe+'/standards-data.js','utf8')+'\n'+fs.readFileSync(fe+'/search-engine.js','utf8')+'\n;globalThis.__s=searchStandards;';
+const code=fs.readFileSync(fe+'/standards-data.js','utf8')+'\n'+fs.readFileSync(fe+'/standards-extra.js','utf8')+'\n'+fs.readFileSync(fe+'/semantic-index.js','utf8')+'\n'+fs.readFileSync(fe+'/search-engine.js','utf8')+'\n;globalThis.__s=searchStandards;';
 const ctx={};vm.createContext(ctx);vm.runInContext(code,ctx);
 const Q=JSON.parse(fs.readFileSync(0,'utf8'));
 console.log(JSON.stringify(Q.map(q=>ctx.__s(q,{includeSuperseded:true}).map(r=>[r.std.no,r.confidence]))));

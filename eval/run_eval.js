@@ -1,7 +1,7 @@
 // Evaluates the in-browser engine. Usage: node eval/run_eval.js   (from the package root)
 const fs=require('fs'),vm=require('vm'),path=require('path');
 const root=path.join(__dirname,'..','frontend');
-const code=fs.readFileSync(path.join(root,'standards-data.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'search-engine.js'),'utf8')+'\n;globalThis.__s=searchStandards;';
+const code=fs.readFileSync(path.join(root,'standards-data.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'standards-extra.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'semantic-index.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'search-engine.js'),'utf8')+'\n;globalThis.__s=searchStandards;';
 const ctx={};vm.createContext(ctx);vm.runInContext(code,ctx);
 const Q=JSON.parse(fs.readFileSync(path.join(__dirname,'queries.json'),'utf8'));
 let t1=0,t3=0;const by={};const miss=[];

@@ -65,7 +65,9 @@ function auditTenderText(text){
       return true;
     });
 
-    const std = candidates[0] || null;
+    // Prefer the exact edition cited; otherwise the current edition; otherwise whatever matches.
+    const exact = f.year ? candidates.find(s => s.no.endsWith(':' + f.year)) : null;
+    const std = exact || candidates.find(s => s.status === 'current') || candidates[0] || null;
     const issues = [];
 
     if(!std){
@@ -260,6 +262,7 @@ function expandToken(token){
   const terms = new Set([token]);
   const phrases = new Set();
   if(token.endsWith('s') && token.length > 3) terms.add(token.slice(0,-1));
+  else if(/^[a-z]{4,}$/.test(token)) terms.add(token + 's');   // 'cylinder' also finds 'cylinders'
 
   // Hindi (Devanagari) input: map straight to the canonical English key,
   // then fall through to the normal SYNONYMS expansion below for that key.
@@ -333,6 +336,32 @@ function idf(term){
   return Math.log((STANDARDS.length + 1) / (df + 1)) + 1;
 }
 
+
+// ---- Latent-semantic layer -------------------------------------------------
+// LSA concept vectors built offline (backend/scripts/build_semantic.py) from each
+// standard's title/scope plus English/Hindi/Marathi vocabulary. A query is projected
+// into the same space and compared by cosine, so "device to keep water hot" can reach
+// a storage water heater standard with zero shared keywords. Blended with lexical score.
+const SEM_FLOOR = 0.35, SEM_WEIGHT = 0.3, SEM_ONLY_MIN = 0.5;
+function semanticScores(groups){
+  if(typeof SEMANTIC === 'undefined') return null;
+  const k = SEMANTIC.k, q = new Array(k).fill(0), used = new Set();
+  let hit = 0;
+  groups.forEach(g => g.terms.concat(g.phrases.flatMap(p => p.split(' '))).forEach(t => {
+    if(used.has(t)) return; used.add(t);
+    const v = SEMANTIC.terms[t];
+    if(v){ hit++; for(let i = 0; i < k; i++) q[i] += v[i]; }
+  }));
+  if(!hit) return null;
+  const n = Math.sqrt(q.reduce((a, b) => a + b * b, 0)) || 1;
+  const out = {};
+  for(const [no, d] of Object.entries(SEMANTIC.docs)){
+    let dot = 0; for(let i = 0; i < k; i++) dot += q[i] * d[i];
+    out[no] = dot / n;
+  }
+  return out;
+}
+
 function searchStandards(query, opts = {}){
   const { includeSuperseded = true } = opts;
   const qTokens = tokenize(query);
@@ -348,9 +377,23 @@ function searchStandards(query, opts = {}){
     return sum + Math.max(bestTerm, bestPhrase);
   }, 0) || 1;
 
+  const sem = semanticScores(expandedGroups);
   let results = STANDARDS.map(std => {
     const { score, matchedTerms } = scoreStandard(std, expandedGroups);
     let finalScore = score;
+    if(score > 0){   // adjacent query words that appear together ("lpg cylinder") are stronger evidence
+      const tl = std.title.toLowerCase(), sl = std.scope.toLowerCase();
+      for(let i = 0; i < qTokens.length - 1; i++){
+        const ph = qTokens[i] + ' ' + qTokens[i + 1];
+        if(tl.includes(ph)) finalScore += 2.5; else if(sl.includes(ph)) finalScore += 1.5;
+      }
+    }
+    const cos = sem ? (sem[std.no] || 0) : 0;
+    let semOnly = false;
+    if(cos > SEM_FLOOR && (score > 0 || cos >= SEM_ONLY_MIN)){
+      finalScore += ((cos - SEM_FLOOR) / (1 - SEM_FLOOR)) * maxPossible * SEM_WEIGHT;
+      semOnly = score === 0;
+    }
     if(isNumMatch && std.no.toLowerCase().includes('is ' + isNumMatch[1])){
       finalScore += 100;
     }
@@ -362,11 +405,14 @@ function searchStandards(query, opts = {}){
       if(type === 'product-spec') finalScore *= 1.18;
       else if(type === 'test-method' || type === 'terminology') finalScore *= 0.80;
     }
+    if(std.primary && finalScore > 0) finalScore *= 1.12;
     return {
       std,
       rawScore: finalScore,
       confidence: Math.min(99, Math.round((finalScore / maxPossible) * 100)),
       matchedTerms,
+      semantic: Math.round(cos * 100),
+      semOnly,
     };
   }).filter(r => r.rawScore > 0);
 

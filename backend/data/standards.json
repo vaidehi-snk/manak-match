@@ -15,12 +15,13 @@
   "amendments": [
    "Amendment No. 3 (Aug 2007): revised durability and cover requirements.",
    "Amendment No. 4 (Mar 2013): editorial corrections to Table 5."
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 269:2015",
   "title": "Ordinary Portland Cement — Specification",
-  "scope": "Ordinary Portland cement of 33, 43 and 53 grade, chemical and physical requirements, packing and marking for cement used in construction.",
+  "scope": "Ordinary Portland cement of 33, 43 and 53 grade, chemical and physical requirements, packing and marking for cement used in construction. Also called: cement, OPC, ordinary portland cement, general purpose cement, 33 43 53 grade cement.",
   "ics": "91.100.10",
   "cat": "Cement",
   "status": "current",
@@ -31,7 +32,8 @@
   ],
   "amendments": [
    "Amendment No. 1 (Nov 2016): clarification on 33 grade OPC withdrawal timeline."
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 8112:2013",
@@ -83,7 +85,8 @@
   "related": [
    "IS 2386",
    "IS 456:2000"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 10262:2019",
@@ -113,7 +116,7 @@
  {
   "no": "IS 1786:2008",
   "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
-  "scope": "TMT bars, deformed reinforcement bars, Fe 415 Fe 500 Fe 550 grades, rebar for reinforced concrete construction.",
+  "scope": "TMT bars, deformed reinforcement bars, Fe 415 Fe 500 Fe 550 grades, rebar for reinforced concrete construction. Also called: TMT bar, rebar, reinforcement steel, saria.",
   "ics": "77.140.60",
   "cat": "Steel",
   "status": "current",
@@ -124,7 +127,8 @@
   ],
   "amendments": [
    "Amendment No. 5 (2018): added Fe 550D and Fe 600 grade requirements."
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 2062:2011",
@@ -136,7 +140,8 @@
   "isiMark": "mandatory",
   "related": [
    "IS 800:2007"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 800:2007",
@@ -202,7 +207,8 @@
   ],
   "amendments": [
    "Amendment No. 1 (2022): updated pressure rating tables for PN classes."
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 15778:2007",
@@ -242,7 +248,8 @@
   ],
   "amendments": [
    "Amendment No. 2 (2015): revised permissible limits for select trace elements."
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 3025 (Part 1):1987",
@@ -270,7 +277,8 @@
   ],
   "amendments": [
    "Amendment No. 3 (2019): updated flame-retardant sheathing requirements."
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 1554 (Part 1):1988",
@@ -283,7 +291,8 @@
   "related": [
    "IS 694:2010",
    "IS 7098 (Part 1):1988"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 7098 (Part 1):1988",
@@ -355,7 +364,8 @@
   "isiMark": "mandatory",
   "related": [
    "IS 302 (Part 1):2008"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 302 (Part 1):2008",
@@ -379,7 +389,8 @@
   "isiMark": "mandatory",
   "related": [
    "IS 302 (Part 1):2008"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 16102 (Part 1):2012",
@@ -393,7 +404,8 @@
   "related": [
    "IS 16102 (Part 2):2012",
    "IS 10322 (Part 5/Sec 1):2012"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 10322 (Part 5/Sec 1):2012",
@@ -486,14 +498,15 @@
  {
   "no": "IS 2925:1984",
   "title": "Industrial Safety Helmets — Specification",
-  "scope": "Industrial safety helmets, hard hats for protection of head against falling objects at construction sites.",
+  "scope": "Industrial safety helmets, hard hats for protection of head against falling objects at construction sites. Also called: construction site helmet, hard hat, industrial head protection for workers.",
   "ics": "13.340.20",
   "cat": "Safety / PPE",
   "status": "current",
   "isiMark": "mandatory",
   "related": [
    "IS 15298 (Part 2):2016"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 15298 (Part 2):2016",
@@ -505,7 +518,8 @@
   "isiMark": "mandatory",
   "related": [
    "IS 2925:1984"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 9167:1979",
@@ -522,14 +536,15 @@
  {
   "no": "IS 15683:2018",
   "title": "Portable Fire Extinguishers — Performance and Construction",
-  "scope": "Portable fire extinguishers, ABC dry powder, CO2 and foam type extinguishers for fire safety.",
+  "scope": "Portable fire extinguishers, ABC dry powder, CO2 and foam type extinguishers for fire safety. Also called: fire extinguisher, portable extinguisher, ABC extinguisher, fire cylinder.",
   "ics": "13.220.10",
   "cat": "Fire Safety",
   "status": "current",
   "isiMark": "mandatory",
   "related": [
    "IS 2190:2010"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 2190:2010",
@@ -611,7 +626,8 @@
   "isiMark": "voluntary",
   "related": [
    "IS 2185 (Part 1):2005"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 2185 (Part 1):2005",
@@ -916,7 +932,7 @@
  {
   "no": "IS 3196 (Part 1):2013",
   "title": "Welded Low Carbon Steel Gas Cylinders — LPG Cylinders",
-  "scope": "Welded steel LPG cylinders for domestic and commercial cooking gas, construction and testing requirements.",
+  "scope": "Welded steel LPG cylinders for domestic and commercial cooking gas, construction and testing requirements. Also called: LPG cylinder, gas cylinder, cooking gas cylinder, LPG cylinder for domestic kitchen use, LPG cylinder for kitchen.",
   "ics": "23.020.30",
   "cat": "Kitchen Equipment",
   "status": "current",
@@ -924,7 +940,8 @@
   "related": [
    "IS 9798:2013",
    "IS 9573 (Part 2):2011"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 9798:2013",
@@ -960,7 +977,8 @@
   "isiMark": "mandatory",
   "related": [
    "IS 9798:2013"
-  ]
+  ],
+  "primary": true
  },
  {
   "no": "IS 10151:1982",
@@ -1117,5 +1135,1925 @@
   "related": [
    "IS 2185 (Part 1):2005"
   ]
+ },
+ {
+  "no": "IS 455:2015",
+  "title": "Portland Slag Cement — Specification",
+  "scope": "Portland slag cement (PSC) made from clinker and granulated blast furnace slag, chemical and physical requirements for general construction.",
+  "ics": "91.100.10",
+  "cat": "Cement",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 4031 (Part 1):1996",
+   "IS 269:2015"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 12330:1988",
+  "title": "Sulphate Resisting Portland Cement — Specification",
+  "scope": "Sulphate resisting cement for foundations, marine works and structures exposed to sulphate bearing soil or groundwater.",
+  "ics": "91.100.10",
+  "cat": "Cement",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 456:2000",
+   "IS 4031 (Part 1):1996"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 8043:1991",
+  "title": "Hydrophobic Portland Cement — Specification",
+  "scope": "Water repellent hydrophobic cement for storage in humid conditions and long transport, rapid hardening.",
+  "ics": "91.100.10",
+  "cat": "Cement",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 269:2015"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 12600:1989",
+  "title": "Low Heat Portland Cement — Specification",
+  "scope": "Low heat cement for mass concrete, dams and large foundations where heat of hydration must be limited.",
+  "ics": "91.100.10",
+  "cat": "Cement",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 456:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 3466:1988",
+  "title": "Masonry Cement — Specification",
+  "scope": "Masonry cement for mortar, plaster and non-structural masonry work.",
+  "ics": "91.100.10",
+  "cat": "Cement",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 2250:1981"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 4031 (Part 6):1988",
+  "title": "Methods of Physical Tests for Hydraulic Cement — Compressive Strength",
+  "scope": "Test method for compressive strength of cement mortar cubes with standard sand.",
+  "ics": "91.100.10",
+  "cat": "Testing",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 650:1991",
+   "IS 269:2015"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 650:1991",
+  "title": "Standard Sand for Testing of Cement — Specification",
+  "scope": "Standard sand (Ennore sand) grades used for testing cement strength.",
+  "ics": "91.100.10",
+  "cat": "Testing",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 4031 (Part 6):1988"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1489 (Part 1):1991",
+  "title": "Portland Pozzolana Cement — Fly Ash Based",
+  "scope": "Older edition of PPC fly ash based specification.",
+  "ics": "91.100.10",
+  "cat": "Cement",
+  "status": "superseded",
+  "isiMark": "mandatory",
+  "related": [],
+  "amendments": [],
+  "supersededBy": "IS 1489 (Part 1):2015"
+ },
+ {
+  "no": "IS 383:1970",
+  "title": "Coarse and Fine Aggregates from Natural Sources for Concrete",
+  "scope": "Older edition of aggregates specification.",
+  "ics": "91.100.20",
+  "cat": "Civil / Structural",
+  "status": "superseded",
+  "isiMark": "na",
+  "related": [],
+  "amendments": [],
+  "supersededBy": "IS 383:2016"
+ },
+ {
+  "no": "IS 456:1978",
+  "title": "Code of Practice for Plain and Reinforced Concrete",
+  "scope": "Older edition of the plain and reinforced concrete code.",
+  "ics": "91.080.40",
+  "cat": "Civil / Structural",
+  "status": "superseded",
+  "isiMark": "na",
+  "related": [],
+  "amendments": [],
+  "supersededBy": "IS 456:2000"
+ },
+ {
+  "no": "IS 1786:1985",
+  "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+  "scope": "Older edition of TMT / deformed reinforcement bar specification.",
+  "ics": "77.140.15",
+  "cat": "Steel",
+  "status": "superseded",
+  "isiMark": "mandatory",
+  "related": [],
+  "amendments": [],
+  "supersededBy": "IS 1786:2008"
+ },
+ {
+  "no": "IS 4926:2003",
+  "title": "Ready-Mixed Concrete — Code of Practice",
+  "scope": "Ready mixed concrete production, transport, delivery, sampling and acceptance at site.",
+  "ics": "91.100.30",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000",
+   "IS 516:2021"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 9103:1999",
+  "title": "Concrete Admixtures — Specification",
+  "scope": "Chemical admixtures such as plasticisers, superplasticisers, retarders and accelerators for concrete.",
+  "ics": "91.100.30",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2645:2003",
+  "title": "Integral Waterproofing Compounds for Cement Mortar and Concrete",
+  "scope": "Waterproofing admixtures added to mortar and concrete to reduce water permeability.",
+  "ics": "91.100.50",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 15388:2003",
+  "title": "Silica Fume — Specification",
+  "scope": "Silica fume as mineral admixture for high performance concrete.",
+  "ics": "91.100.30",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1199 (Part 1):2018",
+  "title": "Fresh Concrete — Methods of Sampling, Testing and Analysis",
+  "scope": "Sampling of fresh concrete and slump, workability, density tests.",
+  "ics": "91.100.30",
+  "cat": "Testing",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000",
+   "IS 516:2021"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2116:1980",
+  "title": "Sand for Masonry Mortars — Specification",
+  "scope": "Natural sand for masonry mortar grading and impurities.",
+  "ics": "91.100.15",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2250:1981"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1542:1992",
+  "title": "Sand for Plaster — Specification",
+  "scope": "Sand for plaster work, grading zones and deleterious materials.",
+  "ics": "91.100.15",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1661:1972"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2250:1981",
+  "title": "Code of Practice for Preparation and Use of Masonry Mortars",
+  "scope": "Mortar mixes, proportions and use in brick and block masonry.",
+  "ics": "91.100.10",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2116:1980",
+   "IS 1077:1992"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1661:1972",
+  "title": "Code of Practice for Cement and Cement-Lime Plaster Finishes on Walls and Ceilings",
+  "scope": "Application of cement plaster, thickness, curing and finishing on walls and ceilings. Also called: wall plaster, cement plastering, plaster work on walls.",
+  "ics": "91.100.10",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1542:1992"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2212:1991",
+  "title": "Code of Practice for Brickwork",
+  "scope": "Brick masonry construction, bonds, joints and workmanship.",
+  "ics": "91.080.30",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1077:1992",
+   "IS 2250:1981"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 12894:2002",
+  "title": "Fly Ash Lime Bricks — Specification",
+  "scope": "Fly ash lime bricks, compressive strength and water absorption for masonry.",
+  "ics": "91.100.25",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 3495 (Part 1):1992",
+   "IS 3812 (Part 1):2013"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 3495 (Part 1):1992",
+  "title": "Methods of Tests of Burnt Clay Building Bricks — Compressive Strength",
+  "scope": "Test method for compressive strength of bricks.",
+  "ics": "91.100.25",
+  "cat": "Testing",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1077:1992"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2185 (Part 3):1984",
+  "title": "Concrete Masonry Units — Autoclaved Cellular Aerated Concrete Blocks",
+  "scope": "AAC blocks, lightweight aerated autoclaved cellular concrete blocks for walls.",
+  "ics": "91.100.30",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2185 (Part 1):2005"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1893 (Part 1):2016",
+  "title": "Criteria for Earthquake Resistant Design of Structures — General Provisions and Buildings",
+  "scope": "Seismic zones, design forces and criteria for buildings and structures. Also called: earthquake safe building, quake resistant design, seismic design, building collapse in earthquake.",
+  "ics": "91.120.25",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 13920:2016",
+   "IS 456:2000",
+   "IS 4326:2013"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1893:2002",
+  "title": "Criteria for Earthquake Resistant Design of Structures",
+  "scope": "Older edition of earthquake resistant design criteria.",
+  "ics": "91.120.25",
+  "cat": "Civil / Structural",
+  "status": "superseded",
+  "isiMark": "na",
+  "related": [],
+  "amendments": [],
+  "supersededBy": "IS 1893 (Part 1):2016"
+ },
+ {
+  "no": "IS 13920:2016",
+  "title": "Ductile Design and Detailing of Reinforced Concrete Structures Subjected to Seismic Forces",
+  "scope": "Seismic detailing of reinforced concrete frames, beams, columns and joints.",
+  "ics": "91.080.40",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000",
+   "IS 1893 (Part 1):2016"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 4326:2013",
+  "title": "Earthquake Resistant Design and Construction of Buildings — Code of Practice",
+  "scope": "Earthquake resistant construction of masonry and other buildings. Also called: earthquake safe construction, quake resistant house, seismic construction.",
+  "ics": "91.120.25",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1893 (Part 1):2016"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 875 (Part 1):1987",
+  "title": "Design Loads for Buildings — Dead Loads",
+  "scope": "Unit weights of building materials and dead load calculation.",
+  "ics": "91.080.01",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 875 (Part 3):2015"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 875 (Part 2):1987",
+  "title": "Design Loads for Buildings — Imposed Loads",
+  "scope": "Live loads for floors, roofs and occupancies.",
+  "ics": "91.080.01",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 875 (Part 1):1987"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2911 (Part 1/Sec 1):2010",
+  "title": "Design and Construction of Pile Foundations — Driven Cast In-situ Concrete Piles",
+  "scope": "Pile foundation design, construction and testing.",
+  "ics": "93.020",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 6403:1981",
+  "title": "Code of Practice for Determination of Bearing Capacity of Shallow Foundations",
+  "scope": "Bearing capacity of soil for footings and raft foundations.",
+  "ics": "93.020",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1498:1970"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1498:1970",
+  "title": "Classification and Identification of Soils for General Engineering Purposes",
+  "scope": "Soil classification system for engineering use.",
+  "ics": "93.020",
+  "cat": "Testing",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2720 (Part 1):1983"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2720 (Part 1):1983",
+  "title": "Methods of Test for Soils — Preparation of Dry Soil Samples",
+  "scope": "Preparation of soil samples for laboratory testing.",
+  "ics": "93.020",
+  "cat": "Testing",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1498:1970"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "NBC 2016",
+  "title": "National Building Code of India 2016 (SP 7)",
+  "scope": "Comprehensive building code covering planning, structural design, fire and life safety, services, accessibility and sustainability.",
+  "ics": "91.040.01",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000",
+   "IS 1641:2013",
+   "IS 732:2019"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2062:1999",
+  "title": "Hot Rolled Low, Medium and High Tensile Structural Steel",
+  "scope": "Older edition of structural steel specification.",
+  "ics": "77.140.10",
+  "cat": "Steel",
+  "status": "superseded",
+  "isiMark": "mandatory",
+  "related": [],
+  "amendments": [],
+  "supersededBy": "IS 2062:2011"
+ },
+ {
+  "no": "IS 1161:2014",
+  "title": "Steel Tubes for Structural Purposes — Specification",
+  "scope": "Steel tubes, square and rectangular hollow sections for structural use.",
+  "ics": "77.140.75",
+  "cat": "Steel",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 800:2007",
+   "IS 2062:2011"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 4923:2017",
+  "title": "Hollow Steel Sections for Structural Use — Specification",
+  "scope": "Cold formed hollow structural sections, box sections for buildings and frames.",
+  "ics": "77.140.75",
+  "cat": "Steel",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 800:2007"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1566:1982",
+  "title": "Plain Hard-Drawn Steel Wire Fabric for Concrete Reinforcement",
+  "scope": "Welded wire mesh fabric for slabs and pavements.",
+  "ics": "77.140.15",
+  "cat": "Steel",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 280:2006",
+  "title": "Mild Steel Wire for General Engineering Purposes",
+  "scope": "Mild steel wire, binding wire, general purpose.",
+  "ics": "77.140.65",
+  "cat": "Steel",
+  "status": "current",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 1363 (Part 1):2019",
+  "title": "Hexagon Head Bolts, Screws and Nuts of Product Grade C",
+  "scope": "Fasteners — hexagon head bolts and nuts for general engineering and structures.",
+  "ics": "21.060.10",
+  "cat": "Steel",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 800:2007"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1608 (Part 1):2022",
+  "title": "Metallic Materials — Tensile Testing at Ambient Temperature",
+  "scope": "Tensile test method for steel bars and metals.",
+  "ics": "77.040.10",
+  "cat": "Testing",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1786:2008",
+   "IS 2062:2011"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 10748:2004",
+  "title": "Hot Rolled Steel Strip for Welded Tubes and Pipes",
+  "scope": "Hot rolled steel strip used to make tubes and pipes.",
+  "ics": "77.140.50",
+  "cat": "Steel",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1239 (Part 1):2004"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 4985:2000",
+  "title": "Unplasticised PVC Pipes for Potable Water Supplies",
+  "scope": "Older edition of PVC pressure pipe specification.",
+  "ics": "23.040.20",
+  "cat": "Pipes & Fittings",
+  "status": "superseded",
+  "isiMark": "voluntary",
+  "related": [],
+  "amendments": [],
+  "supersededBy": "IS 4985:2021"
+ },
+ {
+  "no": "IS 1536:2001",
+  "title": "Centrifugally Cast (Spun) Iron Pressure Pipes for Water, Gas and Sewage",
+  "scope": "Spun cast iron pressure pipes.",
+  "ics": "23.040.10",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "voluntary",
+  "related": [
+   "IS 8329:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 8329:2000",
+  "title": "Centrifugally Cast (Spun) Ductile Iron Pressure Pipes for Water, Gas and Sewage",
+  "scope": "Ductile iron (DI) pipes for water mains and sewers.",
+  "ics": "23.040.10",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 5382:1985",
+   "IS 14846:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 458:2021",
+  "title": "Concrete Pipes (With and Without Reinforcement) — Specification",
+  "scope": "Precast RCC and plain concrete pipes for culverts, drains and sewers.",
+  "ics": "23.040.50",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 783:1985"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 783:1985",
+  "title": "Code of Practice for Laying of Concrete Pipes",
+  "scope": "Laying and jointing of concrete pipes in trenches.",
+  "ics": "23.040.50",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 458:2021"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 651:2007",
+  "title": "Salt Glazed Stoneware Pipes and Fittings",
+  "scope": "Stoneware pipes for drains and sewers.",
+  "ics": "23.040.20",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 13592:2013",
+  "title": "Unplasticized PVC Pipes for Soil and Waste Discharge Systems Inside Buildings",
+  "scope": "UPVC soil, waste and vent pipes for building drainage.",
+  "ics": "23.040.20",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "voluntary",
+  "related": [
+   "IS 5329:1983"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 12818:2010",
+  "title": "Unplasticized PVC Screen and Casing Pipes for Borewells and Tubewells",
+  "scope": "UPVC casing and screen pipes for bore wells.",
+  "ics": "23.040.20",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "voluntary",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 14333:1996",
+  "title": "High Density Polyethylene Pipes for Sewerage",
+  "scope": "HDPE sewer pipes.",
+  "ics": "23.040.20",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 4984:2016"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 14151 (Part 1):1994",
+  "title": "Polyethylene Pipes for Irrigation — Low Density",
+  "scope": "Polyethylene pipes for agricultural irrigation and drip lines.",
+  "ics": "23.040.20",
+  "cat": "Agriculture",
+  "status": "current",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 778:1984",
+  "title": "Copper Alloy Gate, Globe and Check Valves for Water Works Purposes",
+  "scope": "Gunmetal valves for water supply.",
+  "ics": "23.060.01",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 14846:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 14846:2000",
+  "title": "Sluice Valves for Water Works Purposes (50 to 1200 mm)",
+  "scope": "Sluice valves, gate valves for water mains.",
+  "ics": "23.060.20",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 8329:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 5382:1985",
+  "title": "Rubber Sealing Rings for Gas Mains, Water Mains and Sewers",
+  "scope": "Rubber gaskets and sealing rings for pipe joints.",
+  "ics": "23.040.80",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 8329:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 781:1984",
+  "title": "Cast Copper Alloy Screw Down Bib Taps and Stop Valves for Water Services",
+  "scope": "Bib taps, water taps, stop cocks for domestic water supply.",
+  "ics": "23.060.40",
+  "cat": "Sanitation",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 8931:1993"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 8931:1993",
+  "title": "Copper Alloy Fancy Single Taps, Combination Tap Assembly and Stop Valves",
+  "scope": "Fancy taps, mixer taps, faucets for bathrooms and kitchens.",
+  "ics": "23.060.40",
+  "cat": "Sanitation",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 781:1984"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1795:1982",
+  "title": "Pillar Taps for Water Supply Purposes",
+  "scope": "Pillar taps for wash basins and sinks.",
+  "ics": "23.060.40",
+  "cat": "Sanitation",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 781:1984"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 12701:1996",
+  "title": "Rotational Moulded Polyethylene Water Storage Tanks",
+  "scope": "Plastic overhead water tanks, PE storage tanks, Sintex type tanks. Also called: plastic water tank, overhead tank, Sintex tank, PVC tank.",
+  "ics": "23.020.10",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 2065:1983"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2065:1983",
+  "title": "Code of Practice for Water Supply in Buildings",
+  "scope": "Water supply distribution inside buildings, tank sizing, pipework.",
+  "ics": "91.140.60",
+  "cat": "Sanitation",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1172:1993"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1172:1993",
+  "title": "Code of Basic Requirements for Water Supply, Drainage and Sanitation",
+  "scope": "Per capita water requirement, drainage and sanitation for buildings.",
+  "ics": "91.140.60",
+  "cat": "Sanitation",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2065:1983",
+   "IS 1742:1983"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1742:1983",
+  "title": "Code of Practice for Building Drainage",
+  "scope": "Design and layout of drainage in buildings.",
+  "ics": "91.140.80",
+  "cat": "Sanitation",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 5329:1983"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 5329:1983",
+  "title": "Code of Practice for Sanitary Pipe Work Above Ground for Buildings",
+  "scope": "Soil, waste and vent pipework above ground.",
+  "ics": "91.140.80",
+  "cat": "Sanitation",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1742:1983"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2470 (Part 1):1985",
+  "title": "Code of Practice for Installation of Septic Tanks — Design Criteria",
+  "scope": "Septic tank design, sizing, soak pit and construction.",
+  "ics": "91.140.80",
+  "cat": "Sanitation",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1172:1993"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 694:1990",
+  "title": "PVC Insulated Cables for Working Voltages up to 1100 V",
+  "scope": "Older edition of PVC insulated wire specification.",
+  "ics": "29.060.20",
+  "cat": "Electrical",
+  "status": "superseded",
+  "isiMark": "mandatory",
+  "related": [],
+  "amendments": [],
+  "supersededBy": "IS 694:2010"
+ },
+ {
+  "no": "IS 7098 (Part 2):2011",
+  "title": "Cross-linked Polyethylene Insulated PVC Sheathed Cables — 3.3 kV to 33 kV",
+  "scope": "XLPE HT power cables for medium voltage distribution.",
+  "ics": "29.060.20",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "voluntary",
+  "related": [
+   "IS 8130:2013"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 8130:2013",
+  "title": "Conductors for Insulated Electric Cables and Flexible Cords",
+  "scope": "Copper and aluminium conductor classes for cables and wires.",
+  "ics": "29.060.10",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 694:2010",
+   "IS 1554 (Part 1):1988"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 3854:1997",
+  "title": "Switches for Domestic and Similar Purposes",
+  "scope": "Modular switches, wall switches, regulators for home wiring.",
+  "ics": "29.120.40",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 1293:2019",
+   "IS 732:2019"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS/IEC 60898-1:2015",
+  "title": "Circuit Breakers for Overcurrent Protection for Household and Similar Installations (MCB)",
+  "scope": "Miniature circuit breakers MCB for household and similar use. Also called: MCB, miniature circuit breaker, distribution board breaker, household breaker.",
+  "ics": "29.120.50",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 732:2019",
+   "IS 3043:2018"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 12640 (Part 1):2008",
+  "title": "Residual Current Operated Circuit Breakers (RCCB) — General",
+  "scope": "RCCB, earth leakage circuit breakers, ELCB for shock protection. Also called: RCCB, ELCB, earth leakage breaker, shock protection switch.",
+  "ics": "29.120.50",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 3043:2018",
+   "IS/IEC 60898-1:2015"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1180 (Part 1):2014",
+  "title": "Outdoor Type Three-Phase Distribution Transformers up to 2500 kVA",
+  "scope": "Distribution transformers, oil immersed, 11 kV and 33 kV class.",
+  "ics": "29.180",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 2026 (Part 1):2011"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2026 (Part 1):2011",
+  "title": "Power Transformers — General",
+  "scope": "Power transformer general requirements, rating and testing.",
+  "ics": "29.180",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1180 (Part 1):2014"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 13779:1999",
+  "title": "AC Static Watt-hour Meters, Class 1 and 2",
+  "scope": "Static energy meters, electricity meters for billing.",
+  "ics": "17.220.20",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 16444 (Part 1):2015"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 16444 (Part 1):2015",
+  "title": "AC Static Direct Connected Watt-hour Smart Meter Class 1 and 2",
+  "scope": "Smart meters, prepaid smart energy meters with communication. Also called: smart meter, electricity meter, prepaid meter.",
+  "ics": "17.220.20",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 13779:1999"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 325:1996",
+  "title": "Three-Phase Induction Motors",
+  "scope": "Three phase induction motors for industry, pumps and drives.",
+  "ics": "29.160.30",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 12615:2018"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 12615:2018",
+  "title": "Line Operated Three Phase AC Motors (IE Code) — Efficiency Classes",
+  "scope": "Energy efficient motors IE2 IE3 classification.",
+  "ics": "29.160.30",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 325:1996"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 9079:2002",
+  "title": "Monoset Pumps for Clear Cold Water for Agricultural and Water Supply Purposes",
+  "scope": "Monoblock pumps, water pumps for agriculture and supply.",
+  "ics": "23.080",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 325:1996"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 8034:2018",
+  "title": "Submersible Pump Sets",
+  "scope": "Submersible pumps, borewell pumps, openwell submersible. Also called: borewell pump, submersible motor pump, tubewell pump.",
+  "ics": "23.080",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 325:1996"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1520:1980",
+  "title": "Horizontal Centrifugal Pumps for Clear Cold Fresh Water",
+  "scope": "Centrifugal water pumps for water supply and irrigation.",
+  "ics": "23.080",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 325:1996"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2312:1967",
+  "title": "Propeller Type AC Ventilating Fans",
+  "scope": "Exhaust fans and ventilating fans.",
+  "ics": "23.120",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 374:2019"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 302 (Part 2/Sec 21):2008",
+  "title": "Household and Similar Electrical Appliances — Safety — Storage Water Heaters",
+  "scope": "Electric geyser, storage water heater safety. Also called: geyser, hot water tank, bathroom water heater, keeps water hot, immersion heater.",
+  "ics": "97.030",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 302 (Part 1):2008"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1391 (Part 1):1992",
+  "title": "Room Air Conditioners — Unitary Air Conditioners",
+  "scope": "Window air conditioner, AC rating and performance. Also called: window AC, room air conditioner, air conditioning.",
+  "ics": "23.120",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 1391 (Part 2):1992"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1391 (Part 2):1992",
+  "title": "Room Air Conditioners — Split Air Conditioners",
+  "scope": "Split AC indoor and outdoor units performance. Also called: split AC, air conditioner indoor outdoor unit, air conditioning.",
+  "ics": "23.120",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 1391 (Part 1):1992"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 16242 (Part 1):2014",
+  "title": "Uninterruptible Power Systems (UPS) — General and Safety Requirements",
+  "scope": "UPS for computers and offices, inverter safety. Also called: inverter, power backup for computers and offices, battery backup, UPS.",
+  "ics": "29.200",
+  "cat": "IT Hardware",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 13252 (Part 1):2010"
+  ],
+  "amendments": [],
+  "certScheme": "CRS"
+ },
+ {
+  "no": "IS 1651:2013",
+  "title": "Stationary Cells and Batteries, Lead-Acid Type (with Tubular Positive Plates)",
+  "scope": "Lead acid batteries for inverters, UPS and stationary use.",
+  "ics": "29.220.20",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 15549:2005"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 15549:2005",
+  "title": "Stationary Valve Regulated Lead Acid Batteries",
+  "scope": "VRLA batteries, SMF batteries for UPS and telecom.",
+  "ics": "29.220.20",
+  "cat": "Electrical",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1651:2013"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 16046 (Part 2):2018",
+  "title": "Secondary Cells and Batteries — Safety of Portable Sealed Secondary Lithium Cells and Batteries",
+  "scope": "Lithium ion batteries, power banks, portable battery safety.",
+  "ics": "29.220.30",
+  "cat": "IT Hardware",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 16046 (Part 1):2018"
+  ],
+  "amendments": [],
+  "certScheme": "CRS"
+ },
+ {
+  "no": "IS 2026 (Part 1):1977",
+  "title": "Power Transformers — General",
+  "scope": "Older edition of power transformer general requirements.",
+  "ics": "29.180",
+  "cat": "Electrical",
+  "status": "withdrawn",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 12933 (Part 1):2003",
+  "title": "Solar Flat Plate Collectors — Components",
+  "scope": "Solar water heating collectors, solar geyser flat plate.",
+  "ics": "27.160",
+  "cat": "Solar / Energy",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 14286:2010"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 16077:2013",
+  "title": "Thin-film Terrestrial Photovoltaic Modules — Design Qualification and Type Approval",
+  "scope": "Thin film solar modules qualification.",
+  "ics": "27.160",
+  "cat": "Solar / Energy",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 14286:2010"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2189:2008",
+  "title": "Selection, Installation and Maintenance of Automatic Fire Detection and Alarm System",
+  "scope": "Fire alarm system, smoke detectors, heat detectors installation. Also called: smoke detector, fire alarm, fire detection system.",
+  "ics": "13.220.20",
+  "cat": "Fire Safety",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1646:1997",
+   "NBC 2016"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1646:1997",
+  "title": "Fire Safety of Buildings — Electrical Installations",
+  "scope": "Fire safety in electrical installations of buildings.",
+  "ics": "13.220.20",
+  "cat": "Fire Safety",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 732:2019"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1641:2013",
+  "title": "Fire Safety of Buildings — General Principles of Fire Grading and Classification",
+  "scope": "Occupancy classification and fire grading of buildings.",
+  "ics": "13.220.20",
+  "cat": "Fire Safety",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1642:2013",
+   "NBC 2016"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1642:2013",
+  "title": "Fire Safety of Buildings — Details of Construction",
+  "scope": "Fire resistance and construction details for buildings.",
+  "ics": "13.220.20",
+  "cat": "Fire Safety",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1641:2013"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 15105:2002",
+  "title": "Design and Installation of Fixed Automatic Sprinkler Fire Extinguishing Systems",
+  "scope": "Sprinkler system design and installation. Also called: fire sprinkler, sprinkler system, automatic fire fighting.",
+  "ics": "13.220.10",
+  "cat": "Fire Safety",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 9668:2018",
+   "NBC 2016"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 9668:2018",
+  "title": "Provision and Maintenance of Water Supplies for Fire Fighting",
+  "scope": "Fire water tanks, hydrant water supply.",
+  "ics": "13.220.10",
+  "cat": "Fire Safety",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 3844:1989",
+   "IS 15105:2002"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 636:1988",
+  "title": "Non-percolating Flexible Fire Fighting Delivery Hose",
+  "scope": "Fire hose pipe, delivery hose for hydrants.",
+  "ics": "13.220.10",
+  "cat": "Fire Safety",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 3844:1989",
+   "IS 903:1993"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 903:1993",
+  "title": "Fire Hose Delivery Couplings, Branch Pipe, Nozzles and Nozzle Spanner",
+  "scope": "Hose couplings and branch pipes for fire fighting.",
+  "ics": "13.220.10",
+  "cat": "Fire Safety",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 636:1988"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2878:2004",
+  "title": "Fire Extinguishers — Carbon Dioxide Type (Portable and Trolley Mounted)",
+  "scope": "CO2 fire extinguisher for electrical fires.",
+  "ics": "13.220.10",
+  "cat": "Fire Safety",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2190:2010"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 3521:1999",
+  "title": "Industrial Safety Belts and Harnesses",
+  "scope": "Safety belt, full body harness for work at height.",
+  "ics": "13.340.99",
+  "cat": "Safety / PPE",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2925:1984"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 5983:1980",
+  "title": "Eye Protectors",
+  "scope": "Safety goggles, welding goggles, eye protection.",
+  "ics": "13.340.20",
+  "cat": "Safety / PPE",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2925:1984"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 4770:1991",
+  "title": "Rubber Gloves for Electrical Purposes",
+  "scope": "Electrical insulating rubber gloves for live working.",
+  "ics": "13.260",
+  "cat": "Safety / PPE",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 3043:2018"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 6994 (Part 1):1973",
+  "title": "Industrial Safety Gloves — Leather and Cotton Gloves",
+  "scope": "Hand gloves, safety gloves for workers.",
+  "ics": "13.340.40",
+  "cat": "Safety / PPE",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2925:1984"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 9473:2002",
+  "title": "Respiratory Protective Devices — Filtering Half Masks to Protect Against Particles",
+  "scope": "Dust masks, respirators, N95 type filtering half mask.",
+  "ics": "13.340.30",
+  "cat": "Safety / PPE",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2925:1984"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 11226:1985",
+  "title": "Leather Safety Footwear with Steel Toe Cap",
+  "scope": "Safety shoes, steel toe cap leather footwear.",
+  "ics": "61.060",
+  "cat": "Safety / PPE",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 15298 (Part 2):2016"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 4151:2015",
+  "title": "Protective Helmets for Two-Wheeler Riders",
+  "scope": "Motorcycle helmet, two wheeler helmet, scooter rider protection. Also called: bike helmet, motorcycle helmet, head protection while riding a bike or scooter, two wheeler helmet.",
+  "ics": "43.150",
+  "cat": "Safety / PPE",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 303:1989",
+  "title": "Plywood for General Purposes",
+  "scope": "Plywood for furniture, partitions and interiors, BWR and MR grades.",
+  "ics": "79.060.10",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 848:2006"
+  ],
+  "amendments": [],
+  "primary": true
+ },
+ {
+  "no": "IS 710:2010",
+  "title": "Marine Plywood",
+  "scope": "Marine grade waterproof plywood, BWP.",
+  "ics": "79.060.10",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 848:2006"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 848:2006",
+  "title": "Synthetic Resin Adhesives for Plywood (Phenolic and Aminoplastic)",
+  "scope": "Adhesives for plywood manufacture.",
+  "ics": "83.180",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 303:1989"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1659:2004",
+  "title": "Block Boards — Specification",
+  "scope": "Blockboard for furniture and doors.",
+  "ics": "79.060.10",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 303:1989"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 12406:2003",
+  "title": "Medium Density Fibre Boards for General Purposes",
+  "scope": "MDF board for furniture.",
+  "ics": "79.060.20",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 3087:2005",
+  "title": "Particle Boards of Wood and Other Lignocellulosic Materials (Medium Density)",
+  "scope": "Particle board, chipboard for furniture and panelling.",
+  "ics": "79.060.20",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 2202 (Part 1):1999",
+  "title": "Wooden Flush Door Shutters — Solid Core Type",
+  "scope": "Flush doors, solid core wooden door shutters.",
+  "ics": "91.060.50",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 4021:1995"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1003 (Part 1):1994",
+  "title": "Timber Panelled and Glazed Shutters — Door Shutters",
+  "scope": "Panelled wooden doors and glazed door shutters.",
+  "ics": "91.060.50",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 4021:1995"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 4021:1995",
+  "title": "Timber Door, Window and Ventilator Frames",
+  "scope": "Wooden door frames and window frames.",
+  "ics": "91.060.50",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1003 (Part 1):1994"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1141:1993",
+  "title": "Code of Practice for Seasoning of Timber",
+  "scope": "Timber seasoning, drying of wood.",
+  "ics": "79.040",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 401:2001"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 401:2001",
+  "title": "Code of Practice for Preservation of Timber",
+  "scope": "Wood preservatives, treatment against termite and decay.",
+  "ics": "79.040",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1141:1993"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 883:1994",
+  "title": "Design of Structural Timber in Building",
+  "scope": "Structural timber design.",
+  "ics": "79.040",
+  "cat": "Timber & Wood",
+  "status": "current",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 2553 (Part 1):1990",
+  "title": "Safety Glass — General Purpose",
+  "scope": "Toughened glass, laminated safety glass for buildings. Also called: toughened glass, tempered glass, laminated glass, safety glass for windows and doors.",
+  "ics": "81.040.20",
+  "cat": "Glass & Ceramics",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 14900:2018"
+  ],
+  "amendments": [],
+  "primary": true
+ },
+ {
+  "no": "IS 14900:2018",
+  "title": "Transparent Float Glass",
+  "scope": "Float glass for windows, doors and glazing. Also called: plain window glass, clear glass sheet, float glass for windows.",
+  "ics": "81.040.20",
+  "cat": "Glass & Ceramics",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 2553 (Part 1):1990"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 15622:2006",
+  "title": "Pressed Ceramic Tiles — Specification",
+  "scope": "Ceramic floor and wall tiles, vitrified tiles.",
+  "ics": "81.060.30",
+  "cat": "Glass & Ceramics",
+  "status": "current",
+  "isiMark": "voluntary",
+  "related": [
+   "IS 13712:1993"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 13712:1993",
+  "title": "Ceramic Tiles — Definitions, Classification, Characteristics and Marking",
+  "scope": "Classification of ceramic tiles.",
+  "ics": "81.060.30",
+  "cat": "Glass & Ceramics",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 15622:2006"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1237:2012",
+  "title": "Cement Concrete Flooring Tiles",
+  "scope": "Cement concrete tiles, terrazzo, mosaic floor tiles.",
+  "ics": "91.100.30",
+  "cat": "Glass & Ceramics",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1443:1972"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 13801:2013",
+  "title": "Chequered Cement Concrete Tiles",
+  "scope": "Chequered tiles for outdoor flooring, footpaths.",
+  "ics": "91.100.30",
+  "cat": "Glass & Ceramics",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1237:2012"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1443:1972",
+  "title": "Code of Practice for Laying and Finishing of Cement Concrete Flooring Tiles",
+  "scope": "Laying of flooring tiles.",
+  "ics": "91.100.30",
+  "cat": "Glass & Ceramics",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1237:2012"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2571:1970",
+  "title": "Code of Practice for Laying In-situ Cement Concrete Flooring",
+  "scope": "In-situ concrete flooring, screed and topping.",
+  "ics": "91.100.30",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 456:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 777:1988",
+  "title": "Glazed Earthenware Tiles",
+  "scope": "Glazed wall tiles for kitchens and bathrooms.",
+  "ics": "81.060.30",
+  "cat": "Glass & Ceramics",
+  "status": "current",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 428:2013",
+  "title": "Distemper, Oil Emulsion, Colour as Required",
+  "scope": "Oil bound distemper for walls.",
+  "ics": "87.060.20",
+  "cat": "Paints & Coatings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 5410:1992"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 5410:1992",
+  "title": "Cement Paint — Specification",
+  "scope": "Cement based paint for exterior masonry walls.",
+  "ics": "87.060.20",
+  "cat": "Paints & Coatings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 428:2013"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 5411 (Part 1):1974",
+  "title": "Plastic Emulsion Paint for Interior Use",
+  "scope": "Emulsion paint, interior wall paint.",
+  "ics": "87.060.20",
+  "cat": "Paints & Coatings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 5410:1992"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2932:2003",
+  "title": "Enamel, Synthetic, Exterior (a) Undercoating (b) Finishing",
+  "scope": "Synthetic enamel paint for wood and metal.",
+  "ics": "87.060.20",
+  "cat": "Paints & Coatings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2074:2015"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 2074:2015",
+  "title": "Ready Mixed Paint, Air Drying, Red Oxide-Zinc Chrome, Priming",
+  "scope": "Red oxide primer for steel.",
+  "ics": "87.060.20",
+  "cat": "Paints & Coatings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2932:2003"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 133:1993",
+  "title": "Enamel, Interior (a) Undercoating (b) Finishing",
+  "scope": "Interior synthetic enamel.",
+  "ics": "87.060.20",
+  "cat": "Paints & Coatings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 2932:2003"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 217:1988",
+  "title": "Cutback Bitumen — Specification",
+  "scope": "Cutback bitumen for road priming and tack coat.",
+  "ics": "75.140",
+  "cat": "Roads",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 73:2013"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 8887:2004",
+  "title": "Bitumen Emulsion for Road Purposes",
+  "scope": "Bitumen emulsion for tack coat and surface dressing.",
+  "ics": "75.140",
+  "cat": "Roads",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 73:2013"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1322:1993",
+  "title": "Bitumen Felts for Waterproofing and Damp-proofing",
+  "scope": "Bitumen felt for roof waterproofing.",
+  "ics": "91.100.50",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 3384:1986"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 3384:1986",
+  "title": "Bitumen Primer for Use in Waterproofing and Damp-proofing",
+  "scope": "Primer for waterproofing works.",
+  "ics": "91.100.50",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1322:1993"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 1834:1984",
+  "title": "Hot Applied Sealing Compounds for Joints in Concrete",
+  "scope": "Joint sealant, expansion joint filler for concrete.",
+  "ics": "91.100.50",
+  "cat": "Civil / Structural",
+  "status": "current",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 1726:1974",
+  "title": "Cast Iron Manhole Covers and Frames",
+  "scope": "Older edition of cast iron manhole covers.",
+  "ics": "23.040.10",
+  "cat": "Sanitation",
+  "status": "withdrawn",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 2347:2017",
+  "title": "Aluminium Pressure Cookers",
+  "scope": "Pressure cooker, aluminium, safety and capacity.",
+  "ics": "97.040.20",
+  "cat": "Kitchen Equipment",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 302 (Part 1):2008"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 4941:1994",
+  "title": "Honey — Specification",
+  "scope": "Honey purity, moisture and sugar limits.",
+  "ics": "67.180.10",
+  "cat": "Food & Beverages",
+  "status": "current",
+  "isiMark": "na",
+  "related": [],
+  "amendments": []
+ },
+ {
+  "no": "IS 10500:1991",
+  "title": "Drinking Water — Specification",
+  "scope": "Older edition of drinking water quality standard.",
+  "ics": "13.060.20",
+  "cat": "Water Quality",
+  "status": "superseded",
+  "isiMark": "na",
+  "related": [],
+  "amendments": [],
+  "supersededBy": "IS 10500:2012"
+ },
+ {
+  "no": "IS 9873 (Part 1):2019",
+  "title": "Safety of Toys — Mechanical and Physical Properties",
+  "scope": "Toys for children, mechanical and physical safety. Also called: children toys, kids toys, plaything safety.",
+  "ics": "97.200.50",
+  "cat": "Toys",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 9873 (Part 3):2019"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 9873 (Part 2):2019",
+  "title": "Safety of Toys — Flammability",
+  "scope": "Flammability requirements for toys.",
+  "ics": "97.200.50",
+  "cat": "Toys",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 9873 (Part 1):2019"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 9873 (Part 3):2019",
+  "title": "Safety of Toys — Migration of Certain Elements",
+  "scope": "Heavy metals migration limits in toys.",
+  "ics": "97.200.50",
+  "cat": "Toys",
+  "status": "current",
+  "isiMark": "mandatory",
+  "related": [
+   "IS 9873 (Part 1):2019"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 3812 (Part 1):2013",
+  "title": "Pulverized Fuel Ash (Fly Ash) for Use as Pozzolana in Cement, Cement Mortar and Concrete",
+  "scope": "Fly ash specification for use as pozzolana in cement and concrete.",
+  "ics": "91.100.10",
+  "cat": "Cement",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 1489 (Part 1):2015",
+   "IS 456:2000"
+  ],
+  "amendments": []
+ },
+ {
+  "no": "IS 7834 (Part 1):1987",
+  "title": "Injection Moulded PVC Socket Fittings with Solvent Cement Joints for Water Supplies",
+  "scope": "PVC fittings, elbows, tees and couplers for PVC pipe.",
+  "ics": "23.040.45",
+  "cat": "Pipes & Fittings",
+  "status": "current",
+  "isiMark": "na",
+  "related": [
+   "IS 4985:2021"
+  ],
+  "amendments": []
  }
 ]

@@ -13,7 +13,10 @@ should also be cited, the latest version and amendments, and the mandatory certi
 manak-match/
 ├── frontend/                  Website (static, no build step)
 │   ├── index.html             Application shell, UI, navigation, modules
-│   ├── standards-data.js      Standards corpus (90 records) + English / Hindi / Marathi lexicon
+│   ├── standards-extra.js     +148 standards (v2), colloquial names, extra vocabulary
+│   ├── semantic-index.js      Latent-semantic (LSA) concept index (generated)
+│   ├── features-v2.js         Standards map, dispute-risk index, corrected spec, watchlist, PDF/DOCX upload
+│   ├── standards-data.js      Standards corpus (238 records, base set) + English / Hindi / Marathi lexicon
 │   ├── search-engine.js       Retrieval, scoring, audit and gap-detection logic
 │   ├── icons.js               Lucide icons inlined for offline use (generated)
 │   ├── build.js               `node build.js` rebuilds standalone.html after editing index.html
@@ -60,7 +63,7 @@ python -m pytest -q tests                                # 7 passed
 
 ## Honest scope statement (say this to the judges before they ask)
 
-The prototype indexes a **curated sample of 90 commonly procured standards**, not the full BIS catalogue of
+The prototype indexes a **curated sample of 238 commonly procured standards**, not the full BIS catalogue of
 20,000+. The full text of standards is paid content and BIS exposes no bulk API. What is being proven is the
 **method** — retrieval, allied-standard graph, currency check, certification mapping — which is corpus-independent.
 Live BIS lookups are not implemented and are listed as roadmap.

@@ -1,37 +1,449 @@
 [
- {"q":"PVC pipes for drinking water supply","lang":"en","expect":["IS 4985:2021"]},
- {"q":"HDPE pipes for water supply","lang":"en","expect":["IS 4984:2016"]},
- {"q":"ordinary portland cement","lang":"en","expect":["IS 269:2015"]},
- {"q":"TMT reinforcement bars Fe 500","lang":"en","expect":["IS 1786:2008"]},
- {"q":"safety helmets for site workers","lang":"en","expect":["IS 2925:1984"]},
- {"q":"safety shoes for workers","lang":"en","expect":["IS 15298 (Part 2):2016"]},
- {"q":"portable fire extinguisher","lang":"en","expect":["IS 15683:2018"]},
- {"q":"LED bulbs for classrooms","lang":"en","expect":["IS 16102 (Part 1):2012","IS 16102 (Part 2):2012"]},
- {"q":"ceiling fan","lang":"en","expect":["IS 374:2019"]},
- {"q":"laptop computers for office","lang":"en","expect":["IS 13252 (Part 1):2010"]},
- {"q":"gold jewellery hallmarking","lang":"en","expect":["IS 1417:2016"]},
- {"q":"silver jewellery","lang":"en","expect":["IS 2112:2014"]},
- {"q":"wheat flour atta","lang":"en","expect":["IS 1155:1968"]},
- {"q":"iodised salt","lang":"en","expect":["IS 7224:2006"]},
- {"q":"packaged drinking water bottles","lang":"en","expect":["IS 14543:2016"]},
- {"q":"hospital beds","lang":"en","expect":["IS 4148:2011"]},
- {"q":"surgical face mask","lang":"en","expect":["IS 16442:2017"]},
- {"q":"solar PV modules","lang":"en","expect":["IS 14286:2010"]},
- {"q":"solar water pumping system","lang":"en","expect":["IS 16169:2019"]},
- {"q":"ceramic toilet wash basin","lang":"en","expect":["IS 2556 (Part 2):2019"]},
- {"q":"cast iron manhole cover","lang":"en","expect":["IS 1726:1991"]},
- {"q":"paving bitumen for road","lang":"en","expect":["IS 73:2013"]},
- {"q":"LPG cylinder for kitchen","lang":"en","expect":["IS 3196 (Part 1):2013"]},
- {"q":"school chairs","lang":"en","expect":["IS 17632:2022"]},
- {"q":"bed sheets for hostel","lang":"en","expect":["IS 15061:2002"]},
- {"q":"burnt clay bricks","lang":"en","expect":["IS 1077:1992"]},
- {"q":"PVC insulated copper wire for house wiring","lang":"en","expect":["IS 694:2010"]},
- {"q":"concrete mix design","lang":"en","expect":["IS 10262:2019"]},
- {"q":"सीमेंट","lang":"hi","expect":["IS 269:2015"]},
- {"q":"सुरक्षा हेलमेट","lang":"hi","expect":["IS 2925:1984"]},
- {"q":"अग्निशामक यंत्र","lang":"hi","expect":["IS 15683:2018"]},
- {"q":"सोलर पैनल","lang":"hi","expect":["IS 14286:2010"]},
- {"q":"गैस चूल्हा","lang":"hi","expect":["IS 4246:2002"]},
- {"q":"पीने के पानी के लिए पाइप","lang":"hi","expect":["IS 4985:2021"]},
- {"q":"पिण्याच्या पाण्यासाठी नळ","lang":"mr","expect":["IS 4985:2021"]}
+ {
+  "q": "PVC pipes for drinking water supply",
+  "lang": "en",
+  "expect": [
+   "IS 4985:2021"
+  ]
+ },
+ {
+  "q": "HDPE pipes for water supply",
+  "lang": "en",
+  "expect": [
+   "IS 4984:2016"
+  ]
+ },
+ {
+  "q": "ordinary portland cement",
+  "lang": "en",
+  "expect": [
+   "IS 269:2015"
+  ]
+ },
+ {
+  "q": "TMT reinforcement bars Fe 500",
+  "lang": "en",
+  "expect": [
+   "IS 1786:2008"
+  ]
+ },
+ {
+  "q": "safety helmets for site workers",
+  "lang": "en",
+  "expect": [
+   "IS 2925:1984"
+  ]
+ },
+ {
+  "q": "safety shoes for workers",
+  "lang": "en",
+  "expect": [
+   "IS 15298 (Part 2):2016"
+  ]
+ },
+ {
+  "q": "portable fire extinguisher",
+  "lang": "en",
+  "expect": [
+   "IS 15683:2018"
+  ]
+ },
+ {
+  "q": "LED bulbs for classrooms",
+  "lang": "en",
+  "expect": [
+   "IS 16102 (Part 1):2012",
+   "IS 16102 (Part 2):2012"
+  ]
+ },
+ {
+  "q": "ceiling fan",
+  "lang": "en",
+  "expect": [
+   "IS 374:2019"
+  ]
+ },
+ {
+  "q": "laptop computers for office",
+  "lang": "en",
+  "expect": [
+   "IS 13252 (Part 1):2010"
+  ]
+ },
+ {
+  "q": "gold jewellery hallmarking",
+  "lang": "en",
+  "expect": [
+   "IS 1417:2016"
+  ]
+ },
+ {
+  "q": "silver jewellery",
+  "lang": "en",
+  "expect": [
+   "IS 2112:2014"
+  ]
+ },
+ {
+  "q": "wheat flour atta",
+  "lang": "en",
+  "expect": [
+   "IS 1155:1968"
+  ]
+ },
+ {
+  "q": "iodised salt",
+  "lang": "en",
+  "expect": [
+   "IS 7224:2006"
+  ]
+ },
+ {
+  "q": "packaged drinking water bottles",
+  "lang": "en",
+  "expect": [
+   "IS 14543:2016"
+  ]
+ },
+ {
+  "q": "hospital beds",
+  "lang": "en",
+  "expect": [
+   "IS 4148:2011"
+  ]
+ },
+ {
+  "q": "surgical face mask",
+  "lang": "en",
+  "expect": [
+   "IS 16442:2017"
+  ]
+ },
+ {
+  "q": "solar PV modules",
+  "lang": "en",
+  "expect": [
+   "IS 14286:2010"
+  ]
+ },
+ {
+  "q": "solar water pumping system",
+  "lang": "en",
+  "expect": [
+   "IS 16169:2019"
+  ]
+ },
+ {
+  "q": "ceramic toilet wash basin",
+  "lang": "en",
+  "expect": [
+   "IS 2556 (Part 2):2019"
+  ]
+ },
+ {
+  "q": "cast iron manhole cover",
+  "lang": "en",
+  "expect": [
+   "IS 1726:1991"
+  ]
+ },
+ {
+  "q": "paving bitumen for road",
+  "lang": "en",
+  "expect": [
+   "IS 73:2013"
+  ]
+ },
+ {
+  "q": "LPG cylinder for kitchen",
+  "lang": "en",
+  "expect": [
+   "IS 3196 (Part 1):2013"
+  ]
+ },
+ {
+  "q": "school chairs",
+  "lang": "en",
+  "expect": [
+   "IS 17632:2022"
+  ]
+ },
+ {
+  "q": "bed sheets for hostel",
+  "lang": "en",
+  "expect": [
+   "IS 15061:2002"
+  ]
+ },
+ {
+  "q": "burnt clay bricks",
+  "lang": "en",
+  "expect": [
+   "IS 1077:1992"
+  ]
+ },
+ {
+  "q": "PVC insulated copper wire for house wiring",
+  "lang": "en",
+  "expect": [
+   "IS 694:2010"
+  ]
+ },
+ {
+  "q": "concrete mix design",
+  "lang": "en",
+  "expect": [
+   "IS 10262:2019"
+  ]
+ },
+ {
+  "q": "सीमेंट",
+  "lang": "hi",
+  "expect": [
+   "IS 269:2015"
+  ]
+ },
+ {
+  "q": "सुरक्षा हेलमेट",
+  "lang": "hi",
+  "expect": [
+   "IS 2925:1984",
+   "IS 4151:2015"
+  ]
+ },
+ {
+  "q": "अग्निशामक यंत्र",
+  "lang": "hi",
+  "expect": [
+   "IS 15683:2018"
+  ]
+ },
+ {
+  "q": "सोलर पैनल",
+  "lang": "hi",
+  "expect": [
+   "IS 14286:2010"
+  ]
+ },
+ {
+  "q": "गैस चूल्हा",
+  "lang": "hi",
+  "expect": [
+   "IS 4246:2002"
+  ]
+ },
+ {
+  "q": "पीने के पानी के लिए पाइप",
+  "lang": "hi",
+  "expect": [
+   "IS 4985:2021"
+  ]
+ },
+ {
+  "q": "पिण्याच्या पाण्यासाठी नळ",
+  "lang": "mr",
+  "expect": [
+   "IS 4985:2021"
+  ]
+ },
+ {
+  "q": "plywood for furniture",
+  "lang": "en",
+  "expect": [
+   "IS 303:1989"
+  ]
+ },
+ {
+  "q": "marine plywood",
+  "lang": "en",
+  "expect": [
+   "IS 710:2010"
+  ]
+ },
+ {
+  "q": "toughened safety glass for windows",
+  "lang": "en",
+  "expect": [
+   "IS 2553 (Part 1):1990"
+  ]
+ },
+ {
+  "q": "MCB for distribution board",
+  "lang": "en",
+  "expect": [
+   "IS/IEC 60898-1:2015"
+  ]
+ },
+ {
+  "q": "RCCB earth leakage protection",
+  "lang": "en",
+  "expect": [
+   "IS 12640 (Part 1):2008"
+  ]
+ },
+ {
+  "q": "smart electricity meter",
+  "lang": "en",
+  "expect": [
+   "IS 16444 (Part 1):2015"
+  ]
+ },
+ {
+  "q": "storage geyser",
+  "lang": "en",
+  "expect": [
+   "IS 302 (Part 2/Sec 21):2008"
+  ]
+ },
+ {
+  "q": "split air conditioner",
+  "lang": "en",
+  "expect": [
+   "IS 1391 (Part 2):1992"
+  ]
+ },
+ {
+  "q": "toys for children safety",
+  "lang": "en",
+  "expect": [
+   "IS 9873 (Part 1):2019"
+  ]
+ },
+ {
+  "q": "motorcycle helmet",
+  "lang": "en",
+  "expect": [
+   "IS 4151:2015"
+  ]
+ },
+ {
+  "q": "fire sprinkler system",
+  "lang": "en",
+  "expect": [
+   "IS 15105:2002"
+  ]
+ },
+ {
+  "q": "smoke detector fire alarm",
+  "lang": "en",
+  "expect": [
+   "IS 2189:2008"
+  ]
+ },
+ {
+  "q": "submersible pump for borewell",
+  "lang": "en",
+  "expect": [
+   "IS 8034:2018"
+  ]
+ },
+ {
+  "q": "distribution transformer 11 kV",
+  "lang": "en",
+  "expect": [
+   "IS 1180 (Part 1):2014"
+  ]
+ },
+ {
+  "q": "overhead plastic water tank",
+  "lang": "en",
+  "expect": [
+   "IS 12701:1996"
+  ]
+ },
+ {
+  "q": "portland slag cement",
+  "lang": "en",
+  "expect": [
+   "IS 455:2015"
+  ]
+ },
+ {
+  "q": "sulphate resisting cement",
+  "lang": "en",
+  "expect": [
+   "IS 12330:1988"
+  ]
+ },
+ {
+  "q": "earthquake resistant design of buildings",
+  "lang": "en",
+  "expect": [
+   "IS 1893 (Part 1):2016"
+  ]
+ },
+ {
+  "q": "safety harness for work at height",
+  "lang": "en",
+  "expect": [
+   "IS 3521:1999"
+  ]
+ },
+ {
+  "q": "cement plaster on walls",
+  "lang": "en",
+  "expect": [
+   "IS 1661:1972"
+  ]
+ },
+ {
+  "q": "device to keep bathroom water hot",
+  "lang": "sem",
+  "expect": [
+   "IS 302 (Part 2/Sec 21):2008"
+  ]
+ },
+ {
+  "q": "protection for the head while riding a bike",
+  "lang": "sem",
+  "expect": [
+   "IS 4151:2015"
+  ]
+ },
+ {
+  "q": "backup power for office computers",
+  "lang": "sem",
+  "expect": [
+   "IS 16242 (Part 1):2014"
+  ]
+ },
+ {
+  "q": "make buildings safe against earthquakes",
+  "lang": "sem",
+  "expect": [
+   "IS 1893 (Part 1):2016",
+   "IS 4326:2013"
+  ]
+ },
+ {
+  "q": "प्लाईवुड",
+  "lang": "hi",
+  "expect": [
+   "IS 303:1989"
+  ]
+ },
+ {
+  "q": "बच्चों के खिलौने",
+  "lang": "hi",
+  "expect": [
+   "IS 9873 (Part 1):2019",
+   "IS 9873 (Part 2):2019",
+   "IS 9873 (Part 3):2019"
+  ]
+ },
+ {
+  "q": "एसी",
+  "lang": "hi",
+  "expect": [
+   "IS 1391 (Part 1):1992",
+   "IS 1391 (Part 2):1992"
+  ]
+ },
+ {
+  "q": "पानी की टंकी",
+  "lang": "hi",
+  "expect": [
+   "IS 12701:1996"
+  ]
+ }
 ]

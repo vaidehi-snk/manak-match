@@ -40,7 +40,7 @@ I could not open the reference website (mplad-sentinel-rho.vercel.app) or watch 
 ## 3. Likely judge questions and honest answers
 1. **"Is this really AI, or keyword search?"** — Retrieval is TF-IDF with concept and synonym expansion and a Hindi/Marathi lexicon; it is *semantic in the concept-expansion sense*, not a learned embedding model. A dense-embedding upgrade path is implemented as an option in the backend. Say this plainly.
 2. **"How accurate is it?"** — On an internal 35-query regression set the frontend engine gets 35/35 top-1 and the backend 31/35 top-1, 35/35 top-3. **Do not present this as accuracy**: I wrote the queries knowing the corpus. A credible number needs a blind set written by someone else (see §4).
-3. **"Only 90 standards?"** — Yes: full texts are paid content and BIS has no bulk API. The pipeline is corpus-independent; scaling is data work.
+3. **"Only 238 standards?"** — Yes: full texts are paid content and BIS has no bulk API. The pipeline is corpus-independent; scaling is data work.
 4. **"Where does status and amendment data come from?"** — Demo sample data. Production would sync from BIS public listings (Know Your Standard, revised/withdrawn lists); not built.
 5. **"How does it integrate with a portal?"** — REST API (`/api/v1/recommend`, `/audit`); the Portal screen shows the embedded-assistant pattern.
 6. **"What if it recommends wrongly?"** — It ranks with confidence and explanations; the officer decides. Low-confidence items are flagged for manual review in bulk mode.
