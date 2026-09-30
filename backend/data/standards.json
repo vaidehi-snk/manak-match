@@ -196,7 +196,7 @@
  {
   "no": "IS 4985:2021",
   "title": "Unplasticized PVC Pipes for Potable Water Supplies — Specification",
-  "scope": "uPVC pipes, rigid PVC pipe for cold potable water supply, water distribution and plumbing lines.",
+  "scope": "uPVC pipes, rigid PVC pipe for cold potable water supply, water distribution and plumbing lines. Also called: PVC pipe, water pipe, drinking water pipe, water supply pipe, pipe.",
   "ics": "23.040.20",
   "cat": "Pipes & Fittings",
   "status": "current",
@@ -208,7 +208,7 @@
   "amendments": [
    "Amendment No. 1 (2022): updated pressure rating tables for PN classes."
   ],
-  "primary": true
+  "primary": 1.35
  },
  {
   "no": "IS 15778:2007",

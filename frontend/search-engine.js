@@ -405,7 +405,7 @@ function searchStandards(query, opts = {}){
       if(type === 'product-spec') finalScore *= 1.18;
       else if(type === 'test-method' || type === 'terminology') finalScore *= 0.80;
     }
-    if(std.primary && finalScore > 0) finalScore *= 1.12;
+    if(std.primary && finalScore > 0) finalScore *= (typeof std.primary === 'number' ? std.primary : 1.12);
     return {
       std,
       rawScore: finalScore,

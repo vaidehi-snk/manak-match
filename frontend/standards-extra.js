@@ -195,6 +195,7 @@ const AKA = {
  'IS 12701:1996':'plastic water tank, overhead tank, Sintex tank, PVC tank',
  'IS 16444 (Part 1):2015':'smart meter, electricity meter, prepaid meter',
  'IS 9873 (Part 1):2019':'children toys, kids toys, plaything safety',
+ 'IS 4985:2021':'PVC pipe, water pipe, drinking water pipe, water supply pipe, pipe',
  'IS 269:2015':'cement, OPC, ordinary portland cement, general purpose cement, 33 43 53 grade cement',
  'IS 15683:2018':'fire extinguisher, portable extinguisher, ABC extinguisher, fire cylinder',
  'IS 3196 (Part 1):2013':'LPG cylinder, gas cylinder, cooking gas cylinder, LPG cylinder for domestic kitchen use, LPG cylinder for kitchen',
@@ -208,6 +209,7 @@ STANDARDS.forEach(s => { if(AKA[s.no] && !s.scope.includes('Also called')) s.sco
 // flagship standard per everyday item: wins ties against sibling standards of the same family
 const PRIMARY = ['IS 269:2015','IS 456:2000','IS 1786:2008','IS 2062:2011','IS 15683:2018','IS 3196 (Part 1):2013','IS 4985:2021','IS 694:2010','IS 1554 (Part 1):1988','IS 2925:1984','IS 374:2019','IS 303:1989','IS 10500:2012','IS 1077:1992','IS 383:2016','IS 1293:2019','IS 4246:2002','IS 2553 (Part 1):1990','IS 15298 (Part 2):2016','IS 16102 (Part 1):2012'];
 STANDARDS.forEach(s => { if(PRIMARY.includes(s.no)) s.primary = true; });
+STANDARDS.forEach(s => { if(s.no === 'IS 4985:2021') s.primary = 1.35; });   // the everyday answer for a bare 'pipe'
 
 // ---- vocabulary for the new domains (merged into existing synonym tables) ----
 const SYN = {
@@ -233,4 +235,29 @@ Object.assign(HINDI_SYNONYMS, {
   'सीमेंट':'cement','मैनहोल':'manhole','केबल':'cable','बल्ब':'bulb','ईंट':'brick','ईंटें':'brick','सरिया':'rebar','शहद':'honey','कुकर':'cooker',
   'दरवाजा':'door','खिडकी':'door','खिड़की':'door','टाईल':'tile','रंगकाम':'paint','पाइपलाइन':'pipe','सिंचाई':'irrigation','ड्रिप':'irrigation'
 });
+
+// ---- Marathi vocabulary (query side) + spelling variants ----
+const MR = {
+ 'पाईप':'pipe','पाईपलाईन':'pipe','पाणी':'water','पाण्याची':'water','पाण्याचे':'water','पाण्याच्या':'water','पाण्यासाठी':'water','पाण्यात':'water',
+ 'पिण्याच्या':'drinking','पिण्याचे':'drinking','पिण्याचा':'drinking','प्यायच्या':'drinking','सिमेंट':'cement','सिमेंटचे':'cement','वीट':'brick','विटा':'brick','विटांचे':'brick',
+ 'लोखंड':'steel','लोखंडी':'steel','लोखंडाचे':'steel','स्टील':'steel','सळई':'rebar','सळया':'rebar','सळ्या':'rebar','टाकी':'tank','टाक्या':'tank','हेल्मेट':'helmet','शिरस्त्राण':'helmet',
+ 'दिवा':'bulb','दिवे':'bulb','बल्ब':'bulb','एलईडी':'led','तार':'cable','तारा':'cable','केबल':'cable','वायर':'cable','पंखा':'fan','पंखे':'fan','प्लायवुड':'plywood','प्लाय':'plywood',
+ 'काच':'glass','काचा':'glass','फरशी':'tile','फरशा':'tile','टाइल':'tile','रंग':'paint','रंगाचे':'paint','पंप':'pump','मोटार':'motor','मोटर':'motor','मीटर':'meter','खेळणी':'toy','खेळणे':'toy',
+ 'अग्निशामक':'extinguisher','आग':'fire','आगीपासून':'fire','सुरक्षा':'safety','सुरक्षित':'safety','सुरक्षेसाठी':'safety','हातमोजे':'gloves','चष्मा':'goggles','भूकंप':'seismic','भूकंपरोधक':'seismic',
+ 'पाया':'foundation','काँक्रीट':'concrete','कॉंक्रिट':'concrete','वाळू':'sand','खडी':'aggregate','गॅस':'gas','सिलेंडर':'cylinder','सिलिंडर':'cylinder','शेगडी':'stove','कुकर':'cooker',
+ 'मध':'honey','दूध':'milk','तांदूळ':'rice','मीठ':'salt','सौर':'solar','सौरऊर्जा':'solar','बॅटरी':'battery','इन्व्हर्टर':'ups','ट्रान्सफॉर्मर':'transformer','स्विच':'switch','प्लग':'plug',
+ 'मजूर':'worker','कामगार':'worker','कामगारांसाठी':'worker','बांधकाम':'construction','बांधकामासाठी':'construction','शौचालय':'sanitation','नाला':'drain','गटार':'drain','ग्रेड':'grade'
+};
+const MR_STOP = ['साठी','च्या','चा','ची','चे','मध्ये','आणि','व','किंवा','साठीचे','ते','हे','हा','ही','हवे','पाहिजे','वापरायचे','वापरासाठी'];
+STOPWORDS.forEach && MR_STOP.forEach(w => STOPWORDS.add(w));
+Object.assign(HINDI_SYNONYMS, MR);
+// 'tubular' made pipe queries hit battery plates; drop that synonym
+SYNONYMS.pipe = (SYNONYMS.pipe || []).filter(x => x !== 'tubular');
+// spelling variants: short/long vowels (इ/ई, उ/ऊ), chandrabindu, so पाईप / पाइप / पाईप् all resolve
+(function(){
+  const swaps = [['ि','ी'],['ी','ि'],['ु','ू'],['ू','ु'],['ँ','ं'],['ं','ँ'],['इ','ई'],['ई','इ'],['उ','ऊ'],['ऊ','उ']];
+  Object.entries(Object.assign({}, HINDI_SYNONYMS)).forEach(([k, v]) => {
+    swaps.forEach(([a, b]) => { if(k.includes(a)){ const nk = k.split(a).join(b); if(!(nk in HINDI_SYNONYMS)) HINDI_SYNONYMS[nk] = v; } });
+  });
+})();
 })();

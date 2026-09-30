@@ -142,7 +142,7 @@ def search(query: str, include_superseded: bool = True, limit: int = 8) -> List[
             kind = doc_type(std)
             if kind == "product-spec": final *= 1.18
             elif kind in ("test-method", "terminology"): final *= 0.80
-        if std.get("primary") and final > 0: final *= 1.12
+        if std.get("primary") and final > 0: final *= (std["primary"] if isinstance(std["primary"], (int, float)) and not isinstance(std["primary"], bool) else 1.12)
         if final > 0:
             out.append({"std": std, "raw": final, "matched": matched,
                         "confidence": min(99, int(final / max_possible * 100 + 0.5)),
