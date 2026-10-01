@@ -58,7 +58,7 @@ python -m pytest -q tests                                # 7 passed
 | Identify allied standards: normative references, test methods, terminology, safety, installation, related product standards | Six-way "Allied & cross-referenced standards" panel on every result |
 | Highlight the latest published version and amendments | Status (current / superseded / withdrawn), replacing standard, amendments panel, audit |
 | Suggest mandatory certification (BIS Product Certification, CRS, Hallmarking) | Scheme-aware badges + auto-generated clause wording |
-| Support multilingual input and natural language queries | English, Hindi, Marathi (Devanagari), Hinglish; voice input; bilingual UI |
+| Support multilingual input and natural language queries | English, Hindi, Marathi (Devanagari); voice input; English / Hindi / Marathi UI. Romanised Hindi ("pani ki tanki") is not supported yet (planned) |
 | Integrates with procurement portals | Portal Integration module + REST API (`backend/`) |
 
 ## Honest scope statement (say this to the judges before they ask)

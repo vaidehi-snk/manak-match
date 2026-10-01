@@ -7,7 +7,7 @@
 - Allied standards in six relation types (normative, test method, terminology, safety, installation, related product)
 - Latest version, supersession, amendments
 - Certification: ISI (QCO), CRS, Hallmarking (HUID) with clause wording
-- Multilingual: English, Hindi, Marathi (Devanagari), Hinglish, voice input, bilingual UI
+- Multilingual: English, Hindi, Marathi (Devanagari), voice input, English / Hindi / Marathi UI. Romanised Hindi is not supported yet (planned)
 - Portal integration: embedded assistant screen + REST API + reference backend
 
 ### Beyond the brief
