@@ -61,7 +61,7 @@ python -m pytest -q tests                                # 7 passed
 | Support multilingual input and natural language queries | English, Hindi, Marathi (Devanagari); voice input; English / Hindi / Marathi UI. Romanised Hindi ("pani ki tanki") is not supported yet (planned) |
 | Integrates with procurement portals | Portal Integration module + REST API (`backend/`) |
 
-## Honest scope statement (say this to the judges before they ask)
+## Honest scope statement
 
 The prototype indexes a **curated sample of 238 commonly procured standards**, not the full BIS catalogue of
 20,000+. The full text of standards is paid content and BIS exposes no bulk API. What is being proven is the
